@@ -7,15 +7,15 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell ,UITableViewDelegate, UITableViewDataSource{
+class TableViewCell: UITableViewCell {
     
-    
-
     @IBOutlet weak var view: UIView!
     
-    @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var countryImage: UIImageView!
-    @IBOutlet weak var datailLabel: UILabel!
+    
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var detailLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,12 +26,6 @@ class TableViewCell: UITableViewCell ,UITableViewDelegate, UITableViewDataSource
 
         // Configure the view for the selected state
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
+ 
 
 }

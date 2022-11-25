@@ -13,6 +13,8 @@
 		72425AE22930AC26007E54CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72425AE02930AC26007E54CF /* Main.storyboard */; };
 		72425AE42930AC27007E54CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72425AE32930AC27007E54CF /* Assets.xcassets */; };
 		72425AE72930AC27007E54CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72425AE52930AC27007E54CF /* LaunchScreen.storyboard */; };
+		72425AEF2930CC56007E54CF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72425AEE2930CC56007E54CF /* TableViewCell.swift */; };
+		72425AF12930D35A007E54CF /* CountryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72425AF02930D35A007E54CF /* CountryFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		72425AE32930AC27007E54CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72425AE62930AC27007E54CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72425AE82930AC27007E54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72425AEE2930CC56007E54CF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		72425AF02930D35A007E54CF /* CountryFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				72425ADA2930AC26007E54CF /* AppDelegate.swift */,
 				72425ADC2930AC26007E54CF /* SceneDelegate.swift */,
 				72425ADE2930AC26007E54CF /* ViewController.swift */,
+				72425AEE2930CC56007E54CF /* TableViewCell.swift */,
+				72425AF02930D35A007E54CF /* CountryFile.swift */,
 				72425AE02930AC26007E54CF /* Main.storyboard */,
 				72425AE32930AC27007E54CF /* Assets.xcassets */,
 				72425AE52930AC27007E54CF /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72425AF12930D35A007E54CF /* CountryFile.swift in Sources */,
 				72425ADF2930AC26007E54CF /* ViewController.swift in Sources */,
+				72425AEF2930CC56007E54CF /* TableViewCell.swift in Sources */,
 				72425ADB2930AC26007E54CF /* AppDelegate.swift in Sources */,
 				72425ADD2930AC26007E54CF /* SceneDelegate.swift in Sources */,
 			);
